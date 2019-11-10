@@ -16,10 +16,22 @@ import('./dark-theme.css')
   .then(() => { })
   .catch(err => { });
 
+const matchUrl = /https[a-zA-Z0-9%_.-]+/;
+
+const queryParams = window.location.search.split(/[?&]/).reduce((r, param) => {
+  const [ key, value ] = (/^([^=]+)=(.*)/.exec(param)||[]).splice(1);
+  param && (r[key] = decodeURI(value));
+  if ('text' == key) {
+    r['url']  = unescape(matchUrl.exec(r[key]));
+    r['desc'] = unescape(r[key].replace(matchUrl, '').replace(/\+/g, ' '));
+  }
+  return r;
+}, {});
+
 const models = {
 };
 
-ReactDOM.render(<App models={models} />, document.getElementById('root'));
+ReactDOM.render(<App queryParams={queryParams} />, document.getElementById('root'));
 
 // アプリをオフラインで動作させてより速くロードしたい場合は、以下で unregister() を
 // register() に変更できます。これにはいくつかの落とし穴があります。

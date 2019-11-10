@@ -1,10 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import { useEffect } from'react';
 import './App.css';
 
 import { Form } from 'react-bootstrap'
 
-function App() {
+function App({ queryParams }) {
+
+  useEffect(() => {
+    console.log(queryParams);
+    let m;
+    if (m = /https:\/\/www\.amazon\.co\.jp\/dp\/([A-Za-z0-9]+)/.exec(queryParams.url)) {
+      const ASIN = m[1];
+      //
+      window.location.href = `https://mnrate.com/item/aid/${ASIN}`;
+    }
+  }, [queryParams]);
+
   return (
     <div className="App">
 
@@ -22,6 +33,7 @@ function App() {
       <pre>{ Object.keys(window.location).map((k) => {
         return `${JSON.stringify(k)}: ${JSON.stringify(window.location[k])}\n`;
       }) }</pre>
+      
     </div>
   );
 }
