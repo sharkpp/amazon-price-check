@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "https://sharkpp.github.io/amazon-price-check/static/css/main.b100e6da.chunk.css",
+    "main.js": "https://sharkpp.github.io/amazon-price-check/static/js/main.247192ef.chunk.js",
+    "main.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/main.247192ef.chunk.js.map",
+    "runtime-main.js": "https://sharkpp.github.io/amazon-price-check/static/js/runtime-main.89997806.js",
+    "runtime-main.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/runtime-main.89997806.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "https://sharkpp.github.io/amazon-price-check/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.32a02f3b.chunk.js": "https://sharkpp.github.io/amazon-price-check/static/js/2.32a02f3b.chunk.js",
+    "static/js/2.32a02f3b.chunk.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/2.32a02f3b.chunk.js.map",
+    "static/css/3.233a1f94.chunk.css": "https://sharkpp.github.io/amazon-price-check/static/css/3.233a1f94.chunk.css",
+    "static/js/3.08abbe00.chunk.js": "https://sharkpp.github.io/amazon-price-check/static/js/3.08abbe00.chunk.js",
+    "static/js/3.08abbe00.chunk.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/3.08abbe00.chunk.js.map",
+    "index.html": "https://sharkpp.github.io/amazon-price-check/index.html",
+    "precache-manifest.e92865d9d9038be48576a2f759d4d90e.js": "https://sharkpp.github.io/amazon-price-check/precache-manifest.e92865d9d9038be48576a2f759d4d90e.js",
+    "service-worker.js": "https://sharkpp.github.io/amazon-price-check/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "https://sharkpp.github.io/amazon-price-check/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/3.233a1f94.chunk.css.map": "https://sharkpp.github.io/amazon-price-check/static/css/3.233a1f94.chunk.css.map",
+    "static/css/main.b100e6da.chunk.css.map": "https://sharkpp.github.io/amazon-price-check/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "https://sharkpp.github.io/amazon-price-check/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89997806.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.32a02f3b.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.247192ef.chunk.js"
+  ]
+}
