@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://sharkpp.github.io/amazon-price-check/precache-manifest.e92865d9d9038be48576a2f759d4d90e.js"
+  "https://sharkpp.github.io/amazon-price-check/precache-manifest.b0eda7a5a6be4325bc89f2214a406d05.js"
 );
 
 self.addEventListener('message', (event) => {
