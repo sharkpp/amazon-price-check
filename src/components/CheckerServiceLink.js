@@ -15,8 +15,9 @@ function CheckerServiceLink({ checkerService, queryParams }) {
     <Button
       variant="link"
       className="checker-link"
-      href={checkerService.getUrl(queryParams.asin)}
+      href={queryParams.asin&&checkerService.getUrl(queryParams.asin)}
       target="_blank"
+      disabled={!queryParams.asin}
     >
       {checkerService.name}
     </Button>
