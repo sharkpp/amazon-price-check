@@ -1,6 +1,6 @@
 {
-  "short_name": "Amazon 価格チェック",
-  "name": "Amazon 公式アプリから共有ボタンを利用し商品の価格チェックのためのサイトへ移動するツール",
+  "short_name": "Amazon 価格＆評価チェック",
+  "name": "価格＆評価チェック",
   "icons": [
     {
       "src": "favicon.ico",
