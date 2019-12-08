@@ -8,14 +8,15 @@ import { Form } from 'react-bootstrap'
 
 function App({ queryParams }) {
 
+  console.log('queryParams',queryParams);
   useEffect(() => {
-    console.log(queryParams);
+    console.log('queryParams.',queryParams);
     let m;
     if (m = /https:\/\/www\.amazon\.co\.jp\/dp\/([A-Za-z0-9]+)/.exec(queryParams.url)) {
       const ASIN = m[1];
       //
       //window.location.href = `https://mnrate.com/item/aid/${ASIN}`;
-      window.open(`https://mnrate.com/item/aid/${ASIN}`, '_blank')
+      window.open(`https://mnrate.com/item/aid/${ASIN}`, '_blank');
     }
   }, [queryParams]);
   
