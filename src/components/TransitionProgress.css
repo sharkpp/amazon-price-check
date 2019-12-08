@@ -1,0 +1,46 @@
+.transition-progress {
+  width:  50vmin;
+  height: 50vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid #333;
+}
+
+.transition-progress .cart {
+  width:  30vmin;
+  height: 30vmin;
+  color: #999;
+}
+
+.transition-progress .search-anime {
+  position: absolute;
+  right: 5vmin;
+  top: 5vmin;
+  width: 25vmin;
+  height: 25vmin;
+}
+
+.transition-progress .orbit {
+  width: 25vmin;
+  height: 25vmin;
+  animation: rotate 3s linear infinite;
+}
+
+.transition-progress .search {
+  animation: rotate 3s linear reverse infinite;
+  position: absolute;
+  width: 15vmin;
+  height: 15vmin;
+  filter: drop-shadow(0px 0px 2px #fff);
+}
+
+@keyframes rotate { 
+  0% {
+   transform: rotate(0deg);
+  }
+    100% {  
+    transform: rotate(360deg);
+  }
+}
