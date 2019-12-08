@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 .App-logo {
@@ -19,4 +21,23 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.check-service-list {
+  margin: 1rem;
+}
+.check-service-list tr:first-child td {
+  border-top: none;
+}
+.check-service-list td:first-child {
+  padding-left: 2rem;
+}
+.check-service-list td:last-child {
+  padding-right: 2rem;
+  text-align: left;
 }

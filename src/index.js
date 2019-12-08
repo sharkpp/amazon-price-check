@@ -24,6 +24,10 @@ const queryParams = window.location.search.split(/[?&]/).reduce((r, param) => {
   if ('text' == key) {
     r['url']  = unescape(matchUrl.exec(r[key]));
     r['desc'] = unescape(r[key].replace(matchUrl, '').replace(/\+/g, ' '));
+    let m;
+    if (m = /https:\/\/www\.amazon\.co\.jp\/dp\/([A-Za-z0-9]+)/.exec(r['url'])) {
+      r['asin'] = m[1];
+    }
   }
   return r;
 }, {});

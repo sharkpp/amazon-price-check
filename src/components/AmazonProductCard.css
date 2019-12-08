@@ -1,0 +1,7 @@
+.amazon-product-card {
+  margin: 1rem;
+}
+
+.amazon-product-card .card-body > div:last-child {
+  margin-bottom: 0;
+}
