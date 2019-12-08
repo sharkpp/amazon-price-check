@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70ba43cb9fd7c23951233c53c1095575",
+    "revision": "10205f69f100a123628eb63f7be23d14",
     "url": "https://sharkpp.github.io/amazon-price-check/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://sharkpp.github.io/amazon-price-check/static/css/3.233a1f94.chunk.css"
   },
   {
-    "revision": "13ccea4e9e8343291434",
+    "revision": "079f526c08895876b5ea",
     "url": "https://sharkpp.github.io/amazon-price-check/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://sharkpp.github.io/amazon-price-check/static/js/3.08abbe00.chunk.js"
   },
   {
-    "revision": "13ccea4e9e8343291434",
-    "url": "https://sharkpp.github.io/amazon-price-check/static/js/main.9db21198.chunk.js"
+    "revision": "079f526c08895876b5ea",
+    "url": "https://sharkpp.github.io/amazon-price-check/static/js/main.a3a5ef17.chunk.js"
   },
   {
     "revision": "460166a5dfa280aa91b8",

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://sharkpp.github.io/amazon-price-check/static/css/main.b100e6da.chunk.css",
-    "main.js": "https://sharkpp.github.io/amazon-price-check/static/js/main.9db21198.chunk.js",
-    "main.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/main.9db21198.chunk.js.map",
+    "main.js": "https://sharkpp.github.io/amazon-price-check/static/js/main.a3a5ef17.chunk.js",
+    "main.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/main.a3a5ef17.chunk.js.map",
     "runtime-main.js": "https://sharkpp.github.io/amazon-price-check/static/js/runtime-main.89997806.js",
     "runtime-main.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/runtime-main.89997806.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "https://sharkpp.github.io/amazon-price-check/static/css/2.b0bb7f2c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.08abbe00.chunk.js": "https://sharkpp.github.io/amazon-price-check/static/js/3.08abbe00.chunk.js",
     "static/js/3.08abbe00.chunk.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/3.08abbe00.chunk.js.map",
     "index.html": "https://sharkpp.github.io/amazon-price-check/index.html",
-    "precache-manifest.db4f861e9232e15748386b83e95c7b2f.js": "https://sharkpp.github.io/amazon-price-check/precache-manifest.db4f861e9232e15748386b83e95c7b2f.js",
+    "precache-manifest.806518c24fb8e061ebb592703391c778.js": "https://sharkpp.github.io/amazon-price-check/precache-manifest.806518c24fb8e061ebb592703391c778.js",
     "service-worker.js": "https://sharkpp.github.io/amazon-price-check/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "https://sharkpp.github.io/amazon-price-check/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/3.233a1f94.chunk.css.map": "https://sharkpp.github.io/amazon-price-check/static/css/3.233a1f94.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.b0bb7f2c.chunk.css",
     "static/js/2.389c0d71.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.9db21198.chunk.js"
+    "static/js/main.a3a5ef17.chunk.js"
   ]
 }
