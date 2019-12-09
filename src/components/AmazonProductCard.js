@@ -15,6 +15,7 @@ function AmazonProductCard({ queryParams }) {
     <Card className="amazon-product-card">
       <Card.Body>
         <Card.Title>{queryParams.desc}</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">{queryParams.asin}</Card.Subtitle>
       </Card.Body>
     </Card>
   );

@@ -1,26 +1,36 @@
 import React from 'react';
-import { useEffect } from'react';
 import './CheckerServiceLink.css';
 
-import { Form } from 'react-bootstrap';
 import { ListGroup } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
-import { Card } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faCheckSquare, faSquare } from '@fortawesome/free-regular-svg-icons';
 
 //import MainView from './main/mainView';
 
-function CheckerServiceLink({ checkerService, queryParams }) {
-  
+function CheckerServiceLink({ primary, configurate, checkerService, queryParams, onClick, ...otherProps }) {
+  //console.log([primary,checkerService]);
   return (
-    <Button
-      variant="link"
+    <ListGroup.Item
+      {...otherProps}
+      action
+      active={primary}
+      //variant={primary?"primary":"secondary"}
       className="checker-link"
+      onClick={!queryParams.asin?(()=>onClick(checkerService)):(()=>{return false;})}
       href={queryParams.asin&&checkerService.getUrl(queryParams.asin)}
       target="_blank"
-      disabled={!queryParams.asin}
     >
+      {configurate
+        ? (primary
+            ? <FontAwesomeIcon icon={faCheckSquare} fixedWidth size="lg" className="primary-status" />
+            : <FontAwesomeIcon icon={faSquare} fixedWidth size="lg" className="primary-status" />)
+        : (primary
+            ? <FontAwesomeIcon icon={faCheck} fixedWidth size="lg" className="primary-status" />
+            : <span className="primary-status fa-fw fa-lg" />)
+      }
       {checkerService.name}
-    </Button>
+    </ListGroup.Item>
   );
 }
 

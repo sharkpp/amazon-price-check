@@ -41,3 +41,12 @@
   padding-right: 2rem;
   text-align: left;
 }
+
+.config-message {
+  margin: 1rem;
+}
+
+.config-message .card-body {
+  text-align: center;
+  word-break: keep-all;
+}

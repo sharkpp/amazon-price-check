@@ -1,5 +1,14 @@
-.checker-link {
+.checker-link_ {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.checker-link {
+  text-align: left;
+}
+
+.checker-link > .primary-status {
+  display: inline-block;
+  margin-right: 0.5rem;
 }
 

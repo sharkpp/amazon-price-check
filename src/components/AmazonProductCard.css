@@ -2,6 +2,11 @@
   margin: 1rem;
 }
 
+.amazon-product-card .card-body > .card-title {
+  text-align: center;
+  word-break: keep-all;
+}
+
 .amazon-product-card .card-body > div:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
