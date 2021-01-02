@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "https://sharkpp.github.io/amazon-price-check/static/css/main.fb4143f3.chunk.css",
-    "main.js": "https://sharkpp.github.io/amazon-price-check/static/js/main.8dd1c2d0.chunk.js",
-    "main.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/main.8dd1c2d0.chunk.js.map",
+    "main.js": "https://sharkpp.github.io/amazon-price-check/static/js/main.2170a119.chunk.js",
+    "main.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/main.2170a119.chunk.js.map",
     "runtime-main.js": "https://sharkpp.github.io/amazon-price-check/static/js/runtime-main.40133796.js",
     "runtime-main.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/runtime-main.40133796.js.map",
     "static/css/2.b0bb7f2c.chunk.css": "https://sharkpp.github.io/amazon-price-check/static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.374af28a.chunk.js": "https://sharkpp.github.io/amazon-price-check/static/js/2.374af28a.chunk.js",
-    "static/js/2.374af28a.chunk.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/2.374af28a.chunk.js.map",
+    "static/js/2.a4b24a70.chunk.js": "https://sharkpp.github.io/amazon-price-check/static/js/2.a4b24a70.chunk.js",
+    "static/js/2.a4b24a70.chunk.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/2.a4b24a70.chunk.js.map",
     "static/css/3.233a1f94.chunk.css": "https://sharkpp.github.io/amazon-price-check/static/css/3.233a1f94.chunk.css",
     "static/js/3.ffb154aa.chunk.js": "https://sharkpp.github.io/amazon-price-check/static/js/3.ffb154aa.chunk.js",
     "static/js/3.ffb154aa.chunk.js.map": "https://sharkpp.github.io/amazon-price-check/static/js/3.ffb154aa.chunk.js.map",
     "index.html": "https://sharkpp.github.io/amazon-price-check/index.html",
-    "precache-manifest.81aedb261362945ec20409d155c4619b.js": "https://sharkpp.github.io/amazon-price-check/precache-manifest.81aedb261362945ec20409d155c4619b.js",
+    "precache-manifest.d95d9d43d7b18719ec3fee11ba2fb9ce.js": "https://sharkpp.github.io/amazon-price-check/precache-manifest.d95d9d43d7b18719ec3fee11ba2fb9ce.js",
     "service-worker.js": "https://sharkpp.github.io/amazon-price-check/service-worker.js",
     "static/css/2.b0bb7f2c.chunk.css.map": "https://sharkpp.github.io/amazon-price-check/static/css/2.b0bb7f2c.chunk.css.map",
     "static/css/3.233a1f94.chunk.css.map": "https://sharkpp.github.io/amazon-price-check/static/css/3.233a1f94.chunk.css.map",
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.40133796.js",
     "static/css/2.b0bb7f2c.chunk.css",
-    "static/js/2.374af28a.chunk.js",
+    "static/js/2.a4b24a70.chunk.js",
     "static/css/main.fb4143f3.chunk.css",
-    "static/js/main.8dd1c2d0.chunk.js"
+    "static/js/main.2170a119.chunk.js"
   ]
 }
