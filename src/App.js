@@ -16,9 +16,10 @@ import CheckerServiceLink from './components/CheckerServiceLink';
 
 
 const CheckerServiceList = [
-//{id: 'mnrate', name: 'モノレート', getUrl: (asin) => `https://mnrate.com/item/aid/${asin}` }, // 2020-06-30 EoS
-  {id: 'keepa', name: 'Keepa', getUrl: (asin) => `https://keepa.com/#!product/5-${asin}` },
-  {id: 'sakura-checker', name: 'サクラチェッカー', getUrl: (asin) => `https://sakura-checker.jp/search/${asin}` },
+//{id: 'mnrate', name: 'モノレート', getUrl: ({asin}) => `https://mnrate.com/item/aid/${asin}` }, // 2020-06-30 EoS
+  {id: 'keepa', name: 'Keepa', getUrl: ({asin}) => `https://keepa.com/#!product/5-${asin}` },
+  {id: 'sakura-checker', name: 'サクラチェッカー', getUrl: ({asin}) => `https://sakura-checker.jp/search/${asin}` },
+  {id: 'kakaku-dot-com', name: '価格.com', getUrl: ({desc}) => `https://kakaku.com/search_results/${desc}` },
 ];
 const CheckerServiceListLookup = CheckerServiceList.reduce((r, checkerService, index) => (r[checkerService.id] = index, r), {});
 

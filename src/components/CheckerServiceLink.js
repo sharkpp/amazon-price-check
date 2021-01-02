@@ -18,7 +18,7 @@ function CheckerServiceLink({ primary, configurate, checkerService, queryParams,
       //variant={primary?"primary":"secondary"}
       className="checker-link"
       onClick={!queryParams.asin?(()=>onClick(checkerService)):(()=>{return false;})}
-      href={queryParams.asin&&checkerService.getUrl(queryParams.asin)}
+      href={queryParams.asin&&checkerService.getUrl(queryParams)}
       target="_blank"
     >
       {configurate
