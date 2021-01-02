@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
-		"editor.tabSize": 2
+		"editor.tabSize": 2,
+		"search.exclude": {
+			"**/amazon-price-check": true,
+			"**/build": true
+		}
 	}
 }
