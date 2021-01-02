@@ -21,19 +21,18 @@ const matchUrl = /https[a-zA-Z0-9%_.-]+/;
 const queryParams = window.location.search.split(/[?&]/).reduce((r, param) => {
   const [ key, value ] = (/^([^=]+)=(.*)/.exec(param)||[]).splice(1);
   param && (r[key] = decodeURI(value));
-  if ('text' == key) {
+  if ('text' === key) {
     r['url']  = unescape(matchUrl.exec(r[key]));
     r['desc'] = unescape(r[key].replace(matchUrl, '').replace(/\+/g, ' '));
-    let m;
-    if (m = /https:\/\/www\.amazon\.co\.jp\/dp\/([A-Za-z0-9]+)/.exec(r['url'])) {
+    let m = /https:\/\/www\.amazon\.co\.jp\/dp\/([A-Za-z0-9]+)/.exec(r['url']);
+    if (m) {
       r['asin'] = m[1];
     }
   }
   return r;
 }, {});
 
-const models = {
-};
+//const models = {};
 
 ReactDOM.render(<App queryParams={queryParams} />, document.getElementById('root'));
 

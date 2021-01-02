@@ -2,11 +2,8 @@ import React from 'react';
 import { useEffect, useState } from'react';
 import './App.css';
 
-import { Form } from 'react-bootstrap';
 import { ListGroup } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
-import { Table } from 'react-bootstrap';
 
 import localforage from 'localforage';
 
@@ -21,7 +18,12 @@ const CheckerServiceList = [
   {id: 'sakura-checker', name: 'サクラチェッカー', getUrl: ({asin}) => `https://sakura-checker.jp/search/${asin}` },
   {id: 'kakaku-dot-com', name: '価格.com', getUrl: ({desc}) => `https://kakaku.com/search_results/${desc}` },
 ];
-const CheckerServiceListLookup = CheckerServiceList.reduce((r, checkerService, index) => (r[checkerService.id] = index, r), {});
+const CheckerServiceListLookup = CheckerServiceList.reduce(
+  (r, checkerService, index) => {
+    r[checkerService.id] = index;
+    return r;
+  }, {}
+);
 
 const KeyConfigPrimaryCheckerService = 'config.primary-checker';
 
